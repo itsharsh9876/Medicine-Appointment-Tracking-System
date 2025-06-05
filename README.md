@@ -27,9 +27,7 @@ This is a responsive web-based application that helps users **book**, **track**,
 │
 └── README.md # This file
 
-markdown
-Copy
-Edit
+
 
 ## 💡 How to Run the Project
 
