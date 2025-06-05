@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0077cc;
+  color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-logo {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  background-color: #005fa3;
+}
+
+/* Content Container */
+.container {
+  padding: 40px 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Prescription Card */
+.prescription-card {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.prescription-card h2 {
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+.prescription-card p,
+.prescription-card ul {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #333;
+}
+
+.prescription-card ul {
+  padding-left: 20px;
+}
+
+.prescription-card ul li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  border-top: 2px solid #ccc;
+}

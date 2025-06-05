@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>View Appointments</title>
+  <link rel="stylesheet" href=" Viewappointments.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-logo">AMedicine & Appointment Tracking System</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="AppointmentBookingForm.html">Book Appointment</a>
+      <a href="PrescriptionPage.html">Prescription</a>
+      <a href="ViewAppointments.html" class="active">View Appointments</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Your Upcoming Appointments</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Full Name</th>
+          <th>Doctor</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Sample appointments -->
+        <tr>
+          <td>Amit Sharma</td>
+          <td>Dr. Mehta</td>
+          <td>2025-06-10</td>
+          <td>10:30 AM</td>
+          <td>Confirmed</td>
+        </tr>
+        <tr>
+          <td>Priya Singh</td>
+          <td>Dr. Gupta</td>
+          <td>2025-06-12</td>
+          <td>2:00 PM</td>
+          <td>Pending</td>
+        </tr>
+        <!-- You can dynamically generate rows here -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Appointment Tracking System. All rights reserved. | Contact: info@appointments.com
+  </footer>
+
+</body>
+</html>
