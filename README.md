@@ -39,10 +39,6 @@ Edit
 
 > **Note**: This is a frontend-only version. For full backend functionality (user authentication, database storage), backend integration using technologies like PHP/Node.js with MySQL/MongoDB is required.
 
-## 📸 Screenshots
-
-![Homepage Screenshot](screenshots/homepage.png)
-![Appointment Booking Form](screenshots/booking-form.png)
 
 > Add your own screenshots under a `/screenshots` folder.
 
@@ -63,3 +59,4 @@ Edit
 ## 👨‍💻 Author
 
 **Harsh Gautam**
+> Feel free to connect via  [Email](mailto:gautamharshu7767@gmail.com)
