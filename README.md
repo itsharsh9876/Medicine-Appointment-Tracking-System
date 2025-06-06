@@ -38,8 +38,6 @@ This is a responsive web-based application that helps users **book**, **track**,
 > **Note**: This is a frontend-only version. For full backend functionality (user authentication, database storage), backend integration using technologies like PHP/Node.js with MySQL/MongoDB is required.
 
 
-> Add your own screenshots under a `/screenshots` folder.
-
 ## ✨ Technologies Used
 
 - HTML5
