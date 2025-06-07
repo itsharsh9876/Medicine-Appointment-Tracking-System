@@ -7,7 +7,7 @@
 
 /* Body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #f8f9fa, #e0eafc);
   display: flex;
   flex-direction: column;
@@ -96,3 +96,5 @@ footer {
   color: #555;
   border-top: 2px solid #ccc;
 }
+
+
