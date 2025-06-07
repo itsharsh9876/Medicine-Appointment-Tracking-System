@@ -15,9 +15,9 @@ This is a responsive web-based application that helps users **book**, **track**,
 
 📦 appointment-tracking-system
 │
-├── index.html # Homepage with navigation and feature overview
-├── register.html # User registration form
-├── login.html # Login form
+├── index.html # Homepage with navigation and feature overview,
+├── register.html # User registration form,
+├── login.html # Login form,
 ├── AppointmentBookingForm.html # Booking form for appointments
 ├── ViewAppointments.html # Display of past/future appointments
 ├── PrescriptionPage.html # Prescription viewing and management
